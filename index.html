@@ -1,10 +1,11 @@
+
 <!doctype html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>EFF SSD Training - PLD 10.9.16</title>
+		<title>EFF SSD Training - SFSU - 10.26.16 </title>
 
 
         <!-- custom style for EFF trainings-->
@@ -29,31 +30,113 @@
 		<div class="reveal">
 			<div class="slides">
             <!-- Beginning Slide -->
-            <section data-background-image="./assets/ssd-logo.png" data-background-size="30%" data-background-position="50% 10%">Mark Burdett & Soraya Okuda<br>The Electronic Frontier Foundation<br>10.8.16<br></section>
+            <section data-background-image="./assets/ssd-logo.png" data-background-size="30%" data-background-position="50% 10%">Amul Kalia & Soraya Okuda<br>The Electronic Frontier Foundation<br>10.26.16<br></section>
             
             <!-- Threat Modeling -->
             <section data-background-image="./assets/Threatmodeling.png" data-background-size="70%"></section>
             
             <section data-background="./assets/Threatmodeling.png" data-background-size="100px" data-background-position="2% 98%">
               <section>
-                <p class="fragment">- What information are you trying to protect? </p>
+                <p class="fragment">- What information do you want to protect?</p>
                 <p class="fragment">- Who are you protecting that information from?</p> 
-				<p class="fragment">- How much effort do you want/need to go through to protect it?</p>
-				<p class="fragment">- What are the consequences?</p>
+				<p class="fragment">- How bad are the consequences if you fail? </p>		
+				<!--<p class="fragment">- How likely is it that your adversary will use their capabilities against you? (risk)</p>-->
               </section>
-            
-              <!-- Mark uses whiteboard to talk about examples.-->
-            
-              <section>
-            	<p>______(person) protecting ________(information) from ______(adversary).</p>
-              </section>
+            </section>
+            <section data-background="./assets/dial-noun-attributed.png" data-background-size="15%" data-background-position="50% 5%">
+            How much are you willing to go through to protect that information?
+            </section>
             
             
               <!-- Things to add during breakout groups.-->
-              <section>
+              <section data-background="./assets/Threatmodeling.png" data-background-size="100px" data-background-position="2% 98%"> 
                 <p>Questions?</p>
               </section>
             </section>
+            
+            
+            <!-- Phishing -->
+            
+            
+            
+            
+            
+            
+            
+            <!-- Basic Security Hygiene-->
+            <section data-background-image="./assets/SecurityHygiene.png" data-background-size="70%"></section>
+            <section data-background="./assets/SecurityHygiene.png" data-background-size="100px" data-background-position="2% 98%"> </section>
+            
+            <!--1 Some fundamentals-->
+            <section>Some fundamentals:
+            <p class="fragment">-locking your computer and phone</p>
+            <p class="fragment">-creating strong passwords for your digital devices</p>
+            <p class="fragment">-updating your software</p></section>
+            
+            <!--1A Password security-->
+            <section>
+            <p class="fragment">What are some of the things you should keep in mind when making a password?</p>
+            </section>
+            
+				<!-- XKCD comic-->
+   			 	<section data-background="./assets/passwordstrength.png" data-background-size="65%"></section>
+    		
+            <section> You should make passphrases! </section>
+            
+            <section> "Passphrases, what are those?" </section>
+            
+            <section>Similar to the example in the comic, passphrases are:
+             <p class="fragment">+ generally 4+ words</p>
+            <p class="fragment"> + unique</p>
+             <p class="fragment">+ long</p>
+             <p class="fragment">+ hard for computers to guess. </p>
+             <p class="fragment">+ It's best if they are random words.</p></section>
+            
+            <section> "But how do I remember all these different passphrases?"</section>
+            
+            <!-- 2B Password Managers-->
+    		<section>Password Managers!</section>
+             
+   <section> Password managers          
+   <p class="fragment">+ Lots of options available, e.g. KeePass, 1Password, LastPass.</p>
+   <p class="fragment">+ Encrypts your passwords.</p>
+   <p class="fragment">+ Just requires one password (master password) to remember, which unlocks the others.</p>
+   <p class="fragment">+ Great for saving passwords and security questions.</p></section>
+    
+    	<section data-background="./assets/0MrPwMngr.png" data-background-size="60%"></section>
+        <section data-background="./assets/1MrPwMngr.png" data-background-size="60%"></section>
+        <section data-background="./assets/2MrPwMngr.png" data-background-size="60%"></section>
+        <section data-background="./assets/3MrPwMngr.png" data-background-size="60%"></section>
+        <section data-background="./assets/4MrPwMngr.png" data-background-size="60%"></section>
+        <section data-background="./assets/5MrPwMngr.png" data-background-size="60%"></section>
+
+  <section>Questions about locking devices, passwords, and password managers?</section>
+  
+
+            
+     <!--2C: 2 Factor Authentication-->
+            <section>2-Factor authentication <p>(goes by a few different names)</p></section>
+            <section>SMS/Text message to your cellphones</section>
+            <section data-background="./assets/2FAGoogle.png" data-background-size="60%"></section>
+            <section>USB Token (like a Yubikey)</section>
+            <section data-background="./assets/2FAGoogleYubikey.png" data-background-size="60%"></section>
+            <section data-background="./assets/2FAsite.png" data-background-size="80%"></section>														            <section data-background="./assets/2FA.png" data-background-size="40%"></section>
+            
+
+            
+            
+	<!--How secure your connection is to the service you want to use -->
+    	<!-- HTTP vs HTTPS -->
+            <section data-background="./assets/HTTPNYTexample.png" data-background-size="60%"></section>
+            <section data-background="./assets/HTTPNYTexample2.png" data-background-size="60%"></section>
+            <section data-background="./assets/HTTPNYTexample3.png" data-background-size="60%"></section>
+            <section data-background="./assets/HTTPScheck.png" data-background-size="60%"></section>
+ 			<section data-background="./assets/HTTPS.png"><br>"I want to use HTTPS as much as possible. What can I do?"</section>
+            <section data-background="./assets/HTTPSEverywhere.png" data-background-size="60%"></section>
+            <section data-background="./assets/HTTPSEverywhere2.png" data-background-size="50%"></section>
+            
+
+            
             
             <!-- Basics of Online Communication -->
             
@@ -194,25 +277,18 @@
                       
             <section data-background="./assets/HTTPSCommunication.png" data-background-size="50%"></section>
             
-            <section data-background="./assets/HTTPNLGExample.png" data-background-size="60%"></section>
-            
-            <section data-background="./assets/HTTPNLGExample2.png" data-background-size="60%"></section>
+
             
             <section data-background="./assets/HTTPCheck.png" data-background-size="60%"></section>
             
             <section data-background="./assets/HTTPSCheck.png" data-background-size="60%"></section>
             
-            <section data-background="./assets/HTTPSCertbot.png" data-background-size="60%"></section>
+            <!-- <section data-background="./assets/HTTPSCertbot.png" data-background-size="60%"></section>
             
             <section data-background="./assets/HTTPSCertbot.png" data-background-size="20%" data-background-position="50% 1%">
-            <p>Want to get HTTPS for your legal site? Ask your systems administrator (or a tech-savvy server-aware friend) for help installing Certbot. Certbot is free!</section>
+            <p>Want to get HTTPS for your legal site? Ask your systems administrator (or a tech-savvy server-aware friend) for help installing Certbot. Certbot is free!</section> -->
             
-            <section data-background="./assets/HTTPS.png"><br>"I don't have a website, but want to use HTTPS when a site has that option."</section>
-            
-            <section data-background="./assets/HTTPSEverywhere.png" data-background-size="60%"></section>
-            
-            <section data-background="./assets/HTTPSEverywhere2.png" data-background-size="50%"></section>
-            
+           
             <section data-background="" data-background-size="25%" data-background-position="50% 1%">
             <p>"So using HTTPS encrypts the data I submit and makes it safer for me to browse the web...but what about the metadata around that? Can't advertisers (and others) use 'cookies' to track me when I visit a site?"</section>
                         
@@ -324,20 +400,8 @@
   
     <section>PASSWORD MANAGER!</section>
     
-       <section>Password Managers 
-   <p class="fragment">+ Lots of options available, e.g. KeePass, 1Password, LastPass.</p>
-   <p class="fragment">+ Encrypts your passwords.</p>
-   <p class="fragment">+ Just requires one password (master password) to remember, which unlocks the others.</p>
-   <p class="fragment">+ Great for saving passwords and security questions.</p></section>
     
-    	<section data-background="./assets/0MrPwMngr.png" data-background-size="60%"></section>
-        <section data-background="./assets/1MrPwMngr.png" data-background-size="60%"></section>
-        <section data-background="./assets/2MrPwMngr.png" data-background-size="60%"></section>
-        <section data-background="./assets/3MrPwMngr.png" data-background-size="60%"></section>
-        <section data-background="./assets/4MrPwMngr.png" data-background-size="60%"></section>
-        <section data-background="./assets/5MrPwMngr.png" data-background-size="60%"></section>
 
-  <section>Questions about locking devices, passwords, and password managers?</section>
 
     <!--(5 minutes)
 
